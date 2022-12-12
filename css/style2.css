@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #004643;
+    font-family: 'Poppins';
+}
+.logo
+{
+    color: #fffffe;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.wybrany
+{
+    color: #fffffe;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+.powrot
+{
+    color: #fffffe;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+
+}
+.nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #abd1c6;
+    width: 35%;
+    height: 300px;
+    margin: auto;
+    z-index: 0;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+label
+{
+    font-size: 1.3em; 
+    letter-spacing: .1em;
+    color: #fffffe;
+    display: flex;
+}
+select
+{
+    background: #004643;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Poppins';
+    display: flex;
+    color: #fffffe;
+}
+
+.dodawanie
+{
+    text-align: left;
+    padding: 2em;
+}
+.przycisk 
+{
+    font-size: 1.3em;
+    font-family: 'Poppins';
+    text-align: center; 
+    width: 75px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    margin-left: 1em;
+    background: #004643;
+    border: none;
+    color: #fffffe;
+    border-radius: 15%;
+}
+.hero
+{
+    background: #abd1c6;
+    width: 70%;
+    height: 700px;
+    margin: 2em auto;
+    z-index: 0;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+td
+{
+    border: 1px solid #f9bc60;
+    text-align: center;
+}
+
+th
+{
+    border: 1px solid #f9bc60;
+    text-align: center;
+}
